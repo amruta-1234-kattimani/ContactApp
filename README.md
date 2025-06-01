@@ -24,6 +24,21 @@ Follow these steps to run the project locally:
 
 ### 1. Prerequisites
 
-- Java Development Kit (JDK 8 or later)
-- Apache Tomcat (v9 or above)
-- Eclipse IDE / IntelliJ IDEA or any Java IDE with web project support
+- *Java JDK* (version 8 or above)  
+  [Download JDK](https://www.oracle.com/java/technologies/javase-downloads.html)
+  
+- *Apache Tomcat* (version 9 or 10 recommended)  
+  [Download Tomcat](https://tomcat.apache.org/)
+
+- *Eclipse IDE* (with Java EE support) or any IDE that supports JSP/Servlets  
+  [Download Eclipse IDE for Enterprise Java Developers](https://www.eclipse.org/downloads/)
+
+- *How to run on localhost:*
+  1. Start Apache Tomcat using startup.bat (on Windows) or startup.sh (on Mac/Linux)
+  2. Place the project WAR or folder inside Tomcat/webapps directory
+  3. Open your browser and visit:  
+     
+     http://localhost:8080/contact-form-jsp/
+     
+  4. Fill out the form and submit it to test the JSP handling
+
